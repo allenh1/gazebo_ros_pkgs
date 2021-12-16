@@ -159,7 +159,7 @@ ament_export_dependencies(rclcpp)
 ament_export_dependencies(gazebo_dev)
 
 if(BUILD_TESTING)
-  add_subdirectory(test)
+  # add_subdirectory(test)
   find_package(ament_lint_auto REQUIRED)
   ament_lint_auto_find_test_dependencies()
 endif()
